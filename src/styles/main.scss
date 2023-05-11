@@ -379,6 +379,10 @@ main {
 .post-item__date__author {
   color: $color_6;
   text-decoration: none;
+  margin-left: 5px;
+}
+.post-item__date__author::before {
+  content: 'Rating ';
 }
 .post-item__title {
   font-family: $font-family_5;
